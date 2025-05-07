@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "rewrites": [
-    { "source": "/admin(.*)", "destination": "/" },
-    { "source": "/(.*)", "destination": "/" }
+  "builds": [
+    { "src": "vite.config.ts", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
+  ],
+  "routes": [
+    { "src": "/admin(.*)", "dest": "/" },
+    { "src": "/(.*)", "dest": "/" }
   ],
   "cleanUrls": true,
   "trailingSlash": false
