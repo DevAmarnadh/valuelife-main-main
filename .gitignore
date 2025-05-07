@@ -12,22 +12,6 @@ dist
 dist-ssr
 *.local
 
-# Ignore large media files
-*.mp4
-*.pdf
-*.mov
-*.avi
-*.mkv
-*.flv
-*.wmv
-*.webm
-*.ogg
-*.wav
-*.mp3
-*.zip
-*.tar.gz
-*.rar
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
